@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/* bleu-clair -> #3498db */
+/* bleu foncé -> #2C3E50 */
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-custom{
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+#separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #3498db;
+}
+/* header */
+.header {
+    background-color: #3498db;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: white;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: #2C3E50;
+}
+
+/* bannière */
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: red;
+    text-shadow: 1px 1px 20px black;
+}
+
+.inner-banner .btn-custom{
+    background-color: #3498db;
+    color: white;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: #2C3E50
+}
+/* about */
+.about{
+    text-align: center;
+}
+
+.about article{
+    margin-top: 3%;
+}
+
+.about article h2 {
+    text-align: center;
+}
+
+#carousel {
+    text-align: center;
+}
+
+/* Personnalisation du carousel */
+#carouselExampleControlsNoTouching {
+    max-width: 600px; /* Largeur maximale du carousel */
+    margin: 0 auto; /* Centrer le carousel horizontalement */
+  }
+  
+  /* Personnalisation des images dans le carousel */
+  .carousel-inner .carousel-item img {
+    width: 100%; /* Les images remplissent entièrement l'espace du carousel */
+    height: 300px; /* Hauteur des images dans le carousel */
+    object-fit: cover; /* Redimensionner les images pour couvrir complètement */
+  }
+  
+  /* Personnalisation des boutons de contrôle */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 30px; /* Largeur des boutons de contrôle */
+    height: 30px; /* Hauteur des boutons de contrôle */
+    background-color: #007bff; /* Couleur de fond des boutons de contrôle */
+    border: none; /* Supprimer la bordure des boutons de contrôle */
+    border-radius: 50%; /* Bordure arrondie pour les boutons de contrôle */
+  }
+  
+  /* Couleur de l'icône des boutons de contrôle */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #ffffff; /* Couleur de l'icône */
+  }
+  
+  /* Couleur de l'icône des boutons de contrôle lorsqu'ils sont survolés */
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: #0056b3; /* Couleur de fond au survol des boutons de contrôle */
+  }
+  
+/* contact */
+#contact{
+    color: #ffffff;
+    text-align: center;
+}
+
+.red{
+    color:red;
+}
+
+.container {
+    text-align: center;
+}
+.form-area {
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 0px;
+	border: 1px solid GREY;
+}
+.btn-primary {
+    color: white;
+    background-color: rebeccapurple;
+    border-color: magenta;
+}
